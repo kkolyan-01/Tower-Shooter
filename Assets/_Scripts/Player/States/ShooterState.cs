@@ -18,7 +18,7 @@ public class ShooterState : PlayerState
         Vector3 point = RaycastUtility.GetRaycastPosition(mouseRay);
         _player.RotateToPoint(point);
         
-        if (InputManager.actionButtonPressed)
+        if (InputManager.actionButtonPressed && point != Vector3.zero)
         {
             if (_weapon.Shoot())
             {

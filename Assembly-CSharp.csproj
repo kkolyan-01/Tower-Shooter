@@ -51,21 +51,27 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\_Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\_Scripts\InputManager.cs" />
      <Compile Include="Assets\_Scripts\Player\Player.cs" />
      <Compile Include="Assets\_Scripts\Player\States\IdleState.cs" />
      <Compile Include="Assets\_Scripts\Tools\RaycastUtility.cs" />
      <Compile Include="Assets\_Scripts\PlayerTrigger.cs" />
+     <Compile Include="Assets\_Scripts\GameManager.cs" />
+     <Compile Include="Assets\_Scripts\ScriptableObjects\PlayerSettings.cs" />
      <Compile Include="Assets\_Scripts\Player\Weapon.cs" />
+     <Compile Include="Assets\_Scripts\ScriptableObjects\WeaponSettings.cs" />
      <Compile Include="Assets\Import\BrokenVector\LowPolyFencePack\Scripts\DoorToggle.cs" />
      <Compile Include="Assets\_Scripts\Player\States\PlayerState.cs" />
      <Compile Include="Assets\Import\BrokenVector\LowPolyFencePack\Scripts\DoorController.cs" />
      <Compile Include="Assets\_Scripts\Player\States\ShooterState.cs" />
      <Compile Include="Assets\_Scripts\Bullet.cs" />
      <Compile Include="Assets\_Scripts\Player\States\MoveState.cs" />
-     <Compile Include="Assets\_Scripts\GameManager.cs" />
-     <Compile Include="Assets\_Scripts\ScriptableObjects\WeaponSettings.cs" />
-     <Compile Include="Assets\_Scripts\ScriptableObjects\PlayerSettings.cs" />
-     <Compile Include="Assets\_Scripts\InputManager.cs" />
+     <Compile Include="Assets\_Scripts\UI\UIManager.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\AI\IEnemyAI.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\AI\ChaseEnemyAi.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\AI\OffEnemyAi.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\AI\RandomAI.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\AI\EnemyAIFactory.cs" />
      <None Include="Assets\Import\ManNeko_Assets\Adventurer Blake\Read Me.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/_Unity Projects/Tower Shoot/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

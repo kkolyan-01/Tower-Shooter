@@ -28,6 +28,11 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        InitializeComponents();
+    }
+
+    private void InitializeComponents()
+    {
         _state = new IdleState(this);
         _agent = GetComponent<NavMeshAgent>();
         _animator = GetComponentInChildren<Animator>();
@@ -46,6 +51,9 @@ public class Player : MonoBehaviour
 
     public void RotateToPoint(Vector3 point)
     {
+        if(point == Vector3.zero)
+            return;
+        
         transform.LookAt(point);
         transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, 0);   
     }

@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
         {
             Enemy enemy = FindEnemyScript(other.gameObject);
             if (enemy)
-                enemy.EnableRagdoll();
+                enemy.Die();
         }
 
         Rigidbody otherRigidbody = other.transform.GetComponent<Rigidbody>();

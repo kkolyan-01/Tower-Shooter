@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerWeapon 2
   m_EditorClassIdentifier: 
   prefabBullet: {fileID: 8049669756540698947, guid: 91ba21881221acc409958757fc59e9e6, type: 3}
-  particalShot: {fileID: 2335767315781467124, guid: dbd3391bcf98b5641b5098ea81c3efa1, type: 3}
+  particalShot: {fileID: 2335767315781467124, guid: db680a8bde8e26b4a98cb245cf89c321, type: 3}
   soundShot: {fileID: 8300000, guid: cbf9550cf2df3534d99dadec229d595f, type: 3}
   bulletSpeed: 15
   bulletForce: 4000
